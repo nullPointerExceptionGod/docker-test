@@ -1,0 +1,10 @@
+version: '3'
+services:
+  service:
+    build: ./service
+    ports:
+    - 8090:8090
+  data:
+    build: ./data
+    ports:
+    - 8095:8095
