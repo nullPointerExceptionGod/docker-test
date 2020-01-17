@@ -1,0 +1,6 @@
+before_script:
+  - docker info
+
+helloWorldJob:
+  script:
+    - echo 'hello from gitlab ci yaml defied job'
